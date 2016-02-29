@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Assigments8</title>
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+      <link href='https://fonts.googleapis.com/css?family=Euphoria+Script' rel='stylesheet' type='text/css'>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="RORS2A1.js"></script>
+      <style>
+      body {
+        font-weight: bold;
+      }
+        ul {
+          list-style: none;
+        }
+        .answer {
+          padding-left: 15px;
+          padding-right: 15px;
+        }
+      </style> 
+    </head>
+    
+    <body onload="initialLoad()" class ="container">
+      <div class = "row">
+      <div class= "col col-xs-8 col-xs-offset-1"
+      <div id="wrapper">
+       <div id="defaultDisplay">
+          <h3> Define the following </h3>
+          <ul class ="list-group">
+            <li class="list-group-item"><a href = "#" onclick="object()">Object </a></li>
+              <div id="object" class ="answer">
+                <p>Everything in Ruby is an object. The activities that an object performs defines its behaviour </p>
+              </div>
+
+            <li class="list-group-item"><a href = "#" onclick="defineclass()"> Class</a> </li>
+              <div id = "class" class ="answer">
+                  <p>Class is a representation of type of object. Class consists of names, attributes and operations</p>
+              </div>
+              
+            <li class="list-group-item"><a href = "#" onclick = "inheritance()">Inheritance </a></li>
+              <div id = "inheritance" class ="answer">
+                  <p>Inheritance is where an object or class inherits or shares properties from its parent object or class. This means it acquires the same properties and methods of it's parent.</p>
+              </div>
+
+            <li class="list-group-item" class ="answer"> <a href = "#" onclick = "polymorphism()">Polymorphism </a></li>
+              <div id = "polymorphism" class ="answer">
+                <p>Polymorphism is the ability to take more than one form. Polymorphism is using the same method on different objects and getting different results.</p>
+              </div>
+            
+            <li class="list-group-item"><a href = "#" onclick = "encapsulation()">Encapsulation </a></li>
+              <div id = "encapsulation" class ="answer">
+               <p> Encapsulation means binding the data and function together.
+                  Encapsulation is the packing of data and functions into a single component.
+                 Encapsulation means that the internal representation of an object is hidden from the outside.</p>
+              </div>
+
+            <li class="list-group-item"><a href = "#" onclick = "abstraction()">Abstraction </a></li>
+              <div id = "abstraction" class ="answer">
+                <p>Abstraction means hiding the code from backend user. It is the primary means of managing complexity in large programs. </p>
+              </div>
+          </ul>
+        </div>
+        <button onclick ="initialLoad()">Back</button>
+      </div>
+    </div>
+    </div>
+    </body>
